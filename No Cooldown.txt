@@ -1,18 +1,18 @@
 while wait() do
 local tool = Game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool")
 if tool then
-print("Tool found")
+--print("Tool found")
 local hitbox = tool:FindFirstChild("Hitbox")
 if hitbox then
-print("Hitbox Found")
+--print("Hitbox Found")
 hitxbox.Size = Vector3.new(99,99,99)
 local han = hitbox:FindFirstChild("HitHandler")
 if han then
-print("Han found")
+--print("Han found")
 local cd = hitbox:FindFirstChild("Cooldown")
 if cd then
-print("Cd found")
-cd.Value = -1
+--print("Cd found")
+cd.Value = 0
 end
 end
 end
