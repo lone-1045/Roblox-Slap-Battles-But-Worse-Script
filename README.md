@@ -1,1 +1,1 @@
-Hi I'm Luke,aka lone1045.The script will be open source.Enjoy
+I'm lone1045.Free to use this script!Enjoy
